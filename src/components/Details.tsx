@@ -16,7 +16,7 @@ const Details = () => {
     const [group1, setGroup1] = useState<any>([]);
     const    id   = useParams<{id: string}>();
     useEffect(() => {
-          fetch(`http://tptransversals5ws-production-80ab.up.railway.app/avions/${id.id}/Details`, {
+          fetch(`https://tptransversals5ws-production-80ab.up.railway.app/avions/${id.id}/Details`, {
             method: 'GET',
             headers: {
               'Accept': 'application/json',

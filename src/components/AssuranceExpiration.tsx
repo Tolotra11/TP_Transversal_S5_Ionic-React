@@ -9,7 +9,7 @@ import Login from './Login';
 const AssuranceExpiration = () => {
     const [group, setGroup] = useState<any[]>([]);
     useEffect(() => {
-          fetch(`http://tptransversals5ws-production-80ab.up.railway.app/expirations`, {
+          fetch(`https://tptransversals5ws-production-80ab.up.railway.app/expirations`, {
             method: 'GET'
           })
             .then(response => response.json())
