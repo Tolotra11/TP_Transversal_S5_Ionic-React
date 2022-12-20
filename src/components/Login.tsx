@@ -55,6 +55,7 @@ const Login =() => {
                 <IonLabel position="floating"> Email</IonLabel>
                 <IonInput
                     type="email"
+                    value = "group1@gmail.com"
                     onIonChange={(e :any) => setEmail(e.target.value)}
                 />
                 </IonItem>
@@ -66,6 +67,7 @@ const Login =() => {
                 <IonLabel position="floating"> Password</IonLabel>
                 <IonInput
                     type="password"
+                    value = "root"
                     onIonChange={(e :any) => setPwd(e.target.value)}
                 />
                 </IonItem>
