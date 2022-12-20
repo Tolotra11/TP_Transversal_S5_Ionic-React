@@ -11,7 +11,7 @@ const GroupList = () => {
     useEffect(() => {
       setLoading(true);
   
-      fetch('http://localhost:8082/avions')
+      fetch('http://tptransversals5ws-production-80ab.up.railway.app/avions')
         .then(data => data.json())
         .then(res => {
           setList(res.data);

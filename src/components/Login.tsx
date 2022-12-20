@@ -13,7 +13,7 @@ const Login =() => {
         
         console.log(email);
         console.log(pwd);
-        await fetch(`/utilisateurs`, {
+        await fetch(`http://tptransversals5ws-production-80ab.up.railway.app/utilisateurs`, {
             method: 'POST',
             headers: {
               'Accept': 'application/json',
