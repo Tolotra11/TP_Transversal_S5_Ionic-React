@@ -13,7 +13,7 @@ import {
   IonImg,
   IonActionSheet,
 }  from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
+
 import './Tab2.css';
 import { camera, trash, close } from 'ionicons/icons';
 import { usePhotoGallery } from '../hooks/usePhotoGallery';
